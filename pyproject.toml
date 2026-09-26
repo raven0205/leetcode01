@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]      # Tells pytest to only search inside the tests/ directory
+python_files = ["test_*.py", "*_test.py", "*_tests.py"]
+addopts = "-v"             # Automatically runs pytest in verbose mode
+
