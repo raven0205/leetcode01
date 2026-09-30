@@ -1,5 +1,8 @@
 # submission date: 24.09.2026
 # difficulty level: easy
+# time complexity: O(n)
+# space complexity: O(1)
+
 from typing import List
 
 class Solution:

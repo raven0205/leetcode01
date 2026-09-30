@@ -5,6 +5,10 @@
 
 class Solution:
     def maxDepth(self, s:str):
+        """
+        This function takes in string of parentheses as input,
+        and returns the maximum depth seen based on their nesting level.
+        """
         recursive_stack = []
         ans = 0 # max depth seen so far
 
